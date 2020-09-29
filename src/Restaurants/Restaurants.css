@@ -1,0 +1,8 @@
+.restaurants_body {
+    margin-top: 20px;
+    /* background-color: #F2ECEB; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+}

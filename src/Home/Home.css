@@ -1,0 +1,21 @@
+.body {
+    margin-top: 100px;
+}
+.promotional_img {
+    border-radius: 28px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 65%;
+    height: auto;
+    object-fit: cover;
+    transform: scale(1.1);
+    opacity: 1;
+    transition: all 1.4s ease 0s;
+}
+@media only screen and (max-width: 1024px){
+    .promotional_img {
+        width: 85%;
+        height: auto;
+    }
+}

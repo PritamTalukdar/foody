@@ -1,0 +1,29 @@
+.toolbar{
+    background-color: white;
+    padding: 0px 20px;
+}
+
+.icon {
+    color: black;
+}
+.img {
+    display: block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    border: 1px solid rgba(var(--jb7,0,0,0),.0975);
+}
+.instagram {
+    max-width: 110px;
+    object-fit: contain;
+    margin-top: 7px;
+    position: relative;
+    left: 20px;
+}
+
+@media only screen and (max-width: 400px){
+    .instagram {
+        left: 0;
+    }
+}

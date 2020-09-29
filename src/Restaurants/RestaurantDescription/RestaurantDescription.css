@@ -1,0 +1,43 @@
+.restaurant_description {
+    margin-top: 100px;
+}
+.restaurant_header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.restaurant_header_img {
+    border-radius: 10%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 65%;
+    height: auto;
+    object-fit: cover;
+    transform: scale(1.1);
+    opacity: 1;
+    transition: all 1.4s ease 0s;
+}
+@media only screen and (max-width: 1024px){
+    .restaurant_header_img {
+        width: 85%;
+        height: auto;
+    }
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 20%;
+}
+@media only screen and (max-width: 640px){
+    .top-left {
+        top: -20px;
+        left: 10%;
+    }
+}
+
+.food_cards_body {
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    padding: 1em;
+}
