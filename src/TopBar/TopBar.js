@@ -9,6 +9,8 @@ import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import FavoriteBorderSharpIcon from '@material-ui/icons/FavoriteBorderSharp';
 import './TopBar.css';
+import {Link} from "react-router-dom";
+import { routes } from './../routes';
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -97,11 +99,14 @@ export default function PrimarySearchAppBar({cartCounter}) {
     <div className={classes.grow}>
       <AppBar position="static">
         <Toolbar className="toolbar">
-        <img 
-            className="instagram"
-            src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/gwnfuhywcvf7jrordlk0" 
-            alt="test-instagram"
-        />
+        <Link to={{pathname: routes.home}} >
+          <img 
+              className="instagram"
+              src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/gwnfuhywcvf7jrordlk0" 
+              alt="foody logo"
+          />
+        </Link>
+        
         
         <div className={classes.search}>
             <div className={classes.searchIcon}>
